@@ -2,7 +2,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: #3d3c3c;
-    background-image: url("https://hromadske.ua/static/content/thumbs/684x/d/be/acb43e-3d67daa00e9ad6da584bfa5546dadbed.jpg");
+    background-image: url("/s-chistogo-lista-main/images/trialbackground.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
