@@ -11,7 +11,11 @@ body {
     background-image: url("/images/trialbackground.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
+}
+ul {
+    list-style: none;
+    
 }
 .content-section { 
     width:360px;
@@ -36,7 +40,31 @@ body {
 }
 .header{
     padding: 24px,20px,24px,20px;
-    text-align: center; /* в будущем убрать */
+    display: flex;
+    flex-direction: row;
+    column-gap: 168px;
+}
+.header-logo{
+    width:78.45px ;
+}
+.header__menu-list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    
+}
+.header__menu-link {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
+}
+.header__menu-item{
+    text-decoration: underline;
+}
+.header__menu-item_active {
+    text-decoration: none;
 }
 .reasons{
     padding: 40px,20px;
@@ -44,3 +72,4 @@ body {
 .footer {
     padding: 20px;
 }
+
